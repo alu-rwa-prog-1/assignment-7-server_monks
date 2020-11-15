@@ -1,0 +1,11 @@
+﻿To-do List
+We aim to develop a to-do list program for ALU students. This project we believe can help students to plan their schedule better and balance their school work and out of school activities.
+
+
+The program basically performs tasks such as add tasks, edit a task, delete a task, mark-as-complete tasks, set reminders for tasks, and check the time remaining. 
+
+
+The tasks will be divided into two major groups: school tasks and off-campus. In the school tasks, we the following types which are: course tasks, extracurricular activities tasks
+
+
+The program will seek to address the issue of time management among students so that they can prioritize their tasks. The program will also help students to never miss perform tasks because of the reminders. This will result in improved productivity.

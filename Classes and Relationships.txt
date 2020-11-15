@@ -1,0 +1,24 @@
+﻿Parent Classes
+1. SchoolTasks Class
+This class is for tasks that are school-related. The tasks can be assignments, meetings, group sessions, class sessions, club activities, etc.
+2. Off-campusTasks Class
+This class is for tasks which are outside the school and may include, home activities such as shopping, family meetings, visits, etc
+
+
+Child Classes
+1. SchoolTasks Class:
+1. Assignments class 
+           Contains all assignments for all courses.
+2. OfficeHours class
+           Contains OH sessions with either Facilitator or TA for all courses
+3. ClassSession class
+            Contains all class sessions for the week for all courses
+4. Extra-CurricularActivities class
+Contains tasks outside course work such as club activities, school functions/events, work-study if any
+
+
+2. Off-CampusTasks Class:
+There will be no child classes for this parent class since all the tasks will have similar       attributes
+
+
+Illustration:

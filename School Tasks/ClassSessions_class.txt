@@ -1,0 +1,107 @@
+﻿Type: ChildClass of School Tasks class
+
+
+Instance Variables
+Inherits all the instance variables from the SchoolTasks parent class.
+Additional Instance Variables:
+* Course(string) - Shows the course which your class is for 
+
+
+* Platform(string) -  Shows the platform/class that the class will take place in
+
+
+* Facilitator(string) - Shows the facilitator that is teaching that specific course
+
+
+Methods(Pseudo Code)
+Inherits all the methods from the SchoolTasks parent class.
+No additional Methods
+
+
+
+
+Test Scenarios
+
+
+Test Case No
+	Test Case Description
+	Test Data
+	Expected Results
+	Actual Results
+	Pass/Fail
+	1
+	Check the name of a test is the correct one
+	‘Task 1’
+	‘Task 1’
+	
+
+	
+
+	2
+	Check that start date is the correct date
+	2020/11/14 1430
+	2020/11/14 1430
+	
+
+	
+
+	3
+	Check that the due date is the correct date
+	2020/11/19 2359
+	2020/11/19 2359
+	
+
+	
+
+	4
+	Check that task name is not equal to a different name
+	‘Task 1’
+	‘Task 2’
+	
+
+	
+
+	5
+	Check that due date is not equal to start date
+	2020/11/19 2359
+	2020/11/14 1430
+	
+
+	
+
+	6
+	Check that the complete variable is set to false when a task is created
+	False
+	False
+	
+
+	
+
+	7
+	Check that an object  is an instance of a particular class
+	class_task2
+	Class Sessions
+	
+
+	
+
+	8
+	Check that an object  is not  an instance of a particular class
+	class_task2
+	Office Hours
+	
+
+	
+
+	9
+	Check that time remaining is correctly computed(hours)
+	100 hours
+	100 hours
+	
+
+	
+
+	10
+	Check that complete variable is set to true after task is completed
+	True
+	True

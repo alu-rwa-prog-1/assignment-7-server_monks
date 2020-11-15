@@ -1,0 +1,105 @@
+﻿Type: Child Class of School
+
+
+Instance Variables
+* Platform(string) - The online platform or class that the OH will be held at
+* Course(string) - The Course that the Office Hours is for.
+* TA(string) - The Teaching Assistant conducting the Office Hours
+
+
+Methods(Pseudo Code)
+Inherits all the methods from the SchoolTasks parent class.
+No additional Methods
+
+
+
+
+
+
+
+
+Test Scenarios
+
+
+Test Case No
+	Test Case Description
+	Test Data
+	Expected Results
+	Actual Results
+	Pass/Fail
+	1
+	Check the name of a test is the correct one
+	‘Task 1’
+	‘Task 1’
+	
+
+	
+
+	2
+	Check that start date is the correct date
+	2020/11/14 1430
+	2020/11/14 1430
+	
+
+	
+
+	3
+	Check that the due date is the correct date
+	2020/11/19 2359
+	2020/11/19 2359
+	
+
+	
+
+	4
+	Check that task name is not equal to a different name
+	‘Task 1’
+	‘Task 2’
+	
+
+	
+
+	5
+	Check that due date is not equal to start date
+	2020/11/19 2359
+	2020/11/14 1430
+	
+
+	
+
+	6
+	Check that the complete variable is set to false when a task is created
+	False
+	False
+	
+
+	
+
+	7
+	Check that an object  is an instance of a particular class
+	OH_task2
+	Office Hours
+	
+
+	
+
+	8
+	Check that an object  is not  an instance of a particular class
+	OH_task2
+	Class Sessions
+	
+
+	
+
+	9
+	Check that time remaining is correctly computed(hours)
+	100 hours
+	100 hours
+	
+
+	
+
+	10
+	Check that complete variable is set to true after task is completed
+	True
+	True

@@ -1,0 +1,151 @@
+﻿Type: Parent Class
+
+
+Instance Variables
+* Task_name(string) - This will be the name of the task that the user wants to do
+
+
+* Creation_date(datetime) - This will be the date of creation of the task 
+
+
+* Due_date(datetime)  - This is the due date of the task
+
+
+* Complete (boolean) -This will be a boolean variable that will show the status of the assignment, either complete or incomplete. The default will be False then when the user completes the task, they can change it to True.
+
+
+* Venue(string) - This is the out of school venue where the event will be conducted
+
+
+Methods(Pseudo Code)
+
+
+1. Edit task - This allows the user to make changes to the name of their task.
+
+
+         Define edit_task:
+        Input: Enter task name:
+        If the task is available:
+Input : What do you want to change it to?
+                Task_name = (input value)
+else: 
+Output: Task not available
+        
+
+
+2. Remove task - This allows the user to remove a task
+
+
+Define remove_task:
+        Input: Enter task name
+        If task is available:
+                Delete task
+         Else:
+Output: Task not available
+
+
+3. Mark-complete - This allows the user to mark a task as complete
+
+
+Create method mark_complete:
+        Enter task name/id
+        If task is available:
+                Set complete value to True
+         else: 
+output Task not available
+
+
+4. Set reminder - this allows the user to set a reminder time(alarm) for their task
+
+
+Define set_reminder:
+        Input: Enter task name
+        If task is available: 
+Input time for a reminder
+                Confirm reminder time is not past due date
+Else:
+ output Task not available
+        
+5. Check time remaining - allows the user to check the time remaining before the reminder goes off.
+
+
+Define check_time:
+        Enter task name
+        If task is available: 
+Get due date/time
+                Get timedelta of due datetime - now
+                Output timedelta
+else: 
+output Task not available
+        
+
+
+Test Scenarios
+
+
+Test Case No
+	Test Case Description
+	Test Data
+	Expected Results
+	Actual Results
+	Pass/Fail
+	1
+	Check the name of a test is the correct one
+	‘Task 1’
+	‘Task 1’
+	
+
+	
+
+	2
+	Check that start date is the correct date
+	2020/11/14 1430
+	2020/11/14 1430
+	
+
+	
+
+	3
+	Check that the due date is the correct date
+	2020/11/19 2359
+	2020/11/19 2359
+	
+
+	
+
+	4
+	Check that task name is not equal to a different name
+	‘Task 1’
+	‘Task 2’
+	
+
+	
+
+	5
+	Check that due date is not equal to start date
+	2020/11/19 2359
+	2020/11/14 1430
+	
+
+	
+
+	6
+	Check that the complete variable is set to false when a task is created
+	False
+	False
+	
+
+	
+
+	7
+	Check that time remaining is correctly computed(hours)
+	100 hours
+	100 hours
+	
+
+	
+
+	8
+	Check that complete variable is set to true after task is completed
+	True
+	True
